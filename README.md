@@ -12,6 +12,8 @@ werner.cls *# xelatex/lualatex style file*
 
 werner-resume.tex *# tex file for user input*
 
+[werner-resume.pdf](https://github.com/landryp/werner-resume/blob/master/werner-resume.pdf) *# viewable example of pdf output*
+
 ### Fonts
 
 *the fonts/ directory contains the lato and raleway fonts used by the template*
