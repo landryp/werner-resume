@@ -18,4 +18,4 @@ werner-resume.tex *# tex file for user input*
 
 ### Build
 
-build-resume *# executable for building resume from style file and tex file with lualatex or xelatex*
+build-resume *# bash executable for building resume from style file and tex file with lualatex or xelatex*
