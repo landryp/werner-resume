@@ -2,7 +2,7 @@
 ### tex-based resume template
 philippe landry (pgjlandry@gmail.com) 05/2024
 
-* xelatex/lualatex resume template, based on https://github.com/deedy/Deedy-Resume by D. Das*
+xelatex/lualatex resume template, based on https://github.com/deedy/Deedy-Resume by D. Das*
 
 ### Template
 
