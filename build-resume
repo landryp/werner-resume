@@ -1,0 +1,3 @@
+lualatex werner-resume.tex
+
+# xelatex werner-resume.tex # uncomment to build with xelatex

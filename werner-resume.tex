@@ -1,0 +1,211 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% werner-resume lualatex resume template
+% philippe landry (pgjlandry@gmail.com) 05/2024
+% mit license
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper,12pt]{werner} % a4paper also available
+
+%\hyphenpenalty=1000 % control auto-hyphenation
+\usepackage{ragged2e}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=false, % set invisible hyperlinks
+    pdfborder={0 0 0},
+}
+\pagestyle{empty} % comment out to show page numbers
+
+\begin{document}
+
+%\thispagestyle{empty} % uncomment to skip first page number, when showing
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\lastupdated % uncomment to print last updated text at top right
+
+\namesection{First\hspace{12pt}Lastname}{\,\,job title}{
+first.last@email.com \, \lildot \, +1 123-456-7890 \, \lildot \, City, State \, \lildot \, \href{https://www.linkedin.com/}{linkedin.com/in/firstname-lastname}
+}
+\vspace{3pt}
+
+%------------------------------------------------
+% About
+%------------------------------------------------
+
+\begin{justify}
+{{\color{accent}
+\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase About Me }}
+Lorem ipsum dolor sit amet, \textbf{consectetur adipiscing elit}. Nunc id molestie mi. Duis feugiat ipsum sed \textbf{semper faucibus}. Duis accumsan porta ultricies. Fusce vitae \textbf{porttitor nibh}. Nam eu mi ut ipsum viverra vestibulum at non massa. Aenean pulvinar est id felis fermentu, a faucibus metus viverra. Sed et nunc eu odio imperdiet mollis vel id urna.
+\end{justify}
+\vspace{-4pt}
+
+%------------------------------------------------
+% Strengths + Skills
+%------------------------------------------------
+
+\begin{minipage}[t]{0.495\textwidth}
+
+\section{Strengths}
+
+\begin{minipage}[t]{\textwidth}
+
+{\runsubsection{Strength 1}} \lildot\, blurb 1\vspace{3pt}
+
+{\runsubsection{Strength 2}}\lildot\, blurb 2\vspace{3pt}
+
+{\runsubsection{Strength 3}}\lildot\, blurb 3\vspace{3pt}
+
+{\runsubsection{Strength 4}} \lildot\, blurb 4 \vspace{3pt}
+
+{\runsubsection{Strength 5}}\lildot\, blurb 5 
+
+\end{minipage}
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.480\textwidth}
+
+\section{Skills}
+
+\begin{minipage}[t]{\textwidth}
+
+{\runsubsection{Skill Group 1}} \lildot\, skill 1 \lildot\, skill 2 \lildot\, skill 3 \,\lildot\, skill 4 \lildot\, skill 5\vspace{6pt}
+
+{\runsubsection{Skill Group 2}} \lildot\, skill 1 \lildot\, skill 2 \,\lildot\, skill 3 \,\lildot\, skill 4 \lildot\, skill 5\vspace{6pt}
+
+{\runsubsection{Skill Group 3}} \lildot\, skill 1 \,\lildot\, skill 2
+
+\end{minipage}
+
+\end{minipage}
+
+\vspace{8pt}
+\sectionspace
+
+%------------------------------------------------
+% Education
+%------------------------------------------------
+
+\section{Education} 
+
+\begin{minipage}[t]{0.35\textwidth}
+
+\subsection{PhD, Major} \vspace{2pt}
+
+\descript{University 1\location{\textbullet{} 2014-17}} \vspace{3pt}
+{\justify award 1 \, \lildot \, award 2 \, \lildot \, gpa: 4.0/4.0}
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.32\textwidth}
+
+\subsection{MS, Major} \vspace{2pt}
+
+\descript{University 2\location{\textbullet{} 2012-14}} \vspace{3pt}
+{\justify award 1 \, \lildot \, award 2 \, \lildot \, gpa: 4.0/4.0}
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.30\textwidth}
+
+\subsection{BS, Major} \vspace{2pt}
+
+\descript{University 3\location{\textbullet{} 2008-12}} \vspace{3pt}
+{\justify award 1 \, \lildot \, gpa: 4.0/4.0}
+
+\end{minipage}
+
+\vspace{7pt}
+\sectionspace
+
+%------------------------------------------------
+% Experience
+%------------------------------------------------
+
+\section{Experience \hfill \small{\href{https://github.com/}{more at personal-site.com}}}
+\begin{minipage}[t]{0.76\textwidth}
+
+\runsubsection{Role 1}
+\descript{\textbullet{} ~Organization 1}
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.19\textwidth}
+\begin{flushright}
+
+{\location{\hfill 2024-}}
+
+\end{flushright}
+\end{minipage}
+\vspace{1pt}
+\begin{justify}
+Sed venenatis ligula mauris, in pretium metus tempus sit amet. Pellentesque luctus maximus sollicitudin. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos
+\end{justify}
+\vspace{-3pt}
+
+%------------------------------------------------
+
+\begin{minipage}[t]{0.78\textwidth}
+
+\runsubsection{Role 2}
+\descript{\textbullet{} ~Organization 2}
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.2\textwidth}
+\begin{flushright}
+
+{\location{\hfill 2020-24}}
+
+\end{flushright}
+\end{minipage}
+\vspace{0pt}
+\begin{justify}
+Vivamus eget dapibus quam, nec porta justo. Proin dapibus neque efficitur posuere pretium
+\end{justify}
+\vspace{-3pt}
+
+%------------------------------------------------
+
+\begin{minipage}[t]{0.76\textwidth}
+
+\runsubsection{Role 3}
+\descript{\textbullet{} ~Organization 3}
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.22\textwidth}
+\begin{flushright}
+
+{\location{\hfill 2017-20}}
+
+\end{flushright}
+\end{minipage}
+\vspace{1pt} 
+\begin{justify}
+Integer dapibus sapien vel ullamcorper consequat. Integer nibh sem, blandit eu suscipit et
+\end{justify}
+
+\vspace{-2pt}
+\sectionspace
+
+%------------------------------------------------
+% Projects
+%------------------------------------------------
+
+\section{Selected Projects\hfill \small{\href{https://github.com/}{more at github.com/firstname-lastname}}}
+
+\begin{minipage}[t]{\textwidth}
+
+{\runsubsection{Project 1}} \lildot\, Sed aliquet sit amet elit in congue. Morbi lorem massa, interdum quis eleifend et, laoreet et ex. Donec ultrices vel nunc ac tristique. Vivamus malesuada arcu in facilisis cursus\vspace{8pt}
+
+{\runsubsection{Project 2}} \lildot\, Maecenas porttitor blandit arcu, vel faucibus diam auctor sit amet. Aenean ultrices, libero at ultrices viverra, elit mauris luctus metus, ut volutpat ipsum leo eget nulla\vspace{8pt}
+
+{\runsubsection{Project 3}} \lildot\, Proin felis nisl, sagittis in nisi sed, pharetra fringilla ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+
+\end{minipage}
+
+\end{document}
